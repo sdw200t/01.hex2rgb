@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.input-hex,
+.output {
+  width: 12rem;
+  padding-block: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.input-hex {
+  border: none;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 0.15rem;
+}
+
+.output {
+  border: thin solid black;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
